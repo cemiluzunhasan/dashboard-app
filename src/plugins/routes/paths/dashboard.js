@@ -1,7 +1,7 @@
 
 export default {
   path: '/dashboard',
-  component: require('layouts/Auth').default,
+  component: require('layouts/Dashboard').default,
   redirect: '/dashboard/users',
   routes: [
     {
